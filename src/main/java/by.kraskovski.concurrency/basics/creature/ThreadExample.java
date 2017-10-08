@@ -15,7 +15,16 @@ package by.kraskovski.concurrency.basics.creature;
 public class ThreadExample extends Thread {
 
     public static void main(final String... args) {
-        showThreadMainInfo(Thread.currentThread());
+        System.out.println("Main thread is start working...");
+
+//        showThreadMainInfo(Thread.currentThread());
+        customThreadExample();
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Main thread is stop working...");
     }
 
     private static void showThreadMainInfo(final Thread thread) {
@@ -26,5 +35,10 @@ public class ThreadExample extends Thread {
         System.out.println(thread.isAlive()); // true
         System.out.println(thread.isDaemon()); // false
         System.out.println(thread.isInterrupted()); // false
+    }
+
+    private static void customThreadExample() {
+//        new CustomThread().run(); // if use run() thread will join to "main" thread.
+        new CustomThread().start(); // start work in another thread
     }
 }
