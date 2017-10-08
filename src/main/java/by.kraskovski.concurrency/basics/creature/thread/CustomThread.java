@@ -1,4 +1,4 @@
-package by.kraskovski.concurrency.basics.creature;
+package by.kraskovski.concurrency.basics.creature.thread;
 
 public class CustomThread extends Thread {
 
