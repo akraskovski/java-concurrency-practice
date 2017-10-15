@@ -15,11 +15,3 @@ buildNumber.properties
 
 # IntelliJ project files
 .idea
-.idea/java-concurrency-practice.iml
-out
-gen
-.gitignore
-.idea/inspectionProfiles/
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xml
