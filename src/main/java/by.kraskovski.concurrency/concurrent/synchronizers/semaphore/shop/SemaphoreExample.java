@@ -1,4 +1,4 @@
-package by.kraskovski.concurrency.concurrency.semaphore.shop;
+package by.kraskovski.concurrency.concurrent.synchronizers.semaphore.shop;
 
 import java.util.concurrent.Semaphore;
 

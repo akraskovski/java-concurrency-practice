@@ -1,4 +1,4 @@
-package by.kraskovski.concurrency.concurrency.semaphore.parking;
+package by.kraskovski.concurrency.concurrent.synchronizers.semaphore.parking;
 
 /**
  * Example of usage {@link java.util.concurrent.Semaphore}.

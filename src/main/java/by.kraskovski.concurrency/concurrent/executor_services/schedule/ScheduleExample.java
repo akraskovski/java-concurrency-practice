@@ -1,6 +1,6 @@
-package by.kraskovski.concurrency.concurrency.schedule;
+package by.kraskovski.concurrency.concurrent.executor_services.schedule;
 
-import by.kraskovski.concurrency.concurrency.callable.MyCallable;
+import by.kraskovski.concurrency.concurrent.executors.callable.MyCallable;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;

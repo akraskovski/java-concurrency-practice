@@ -1,4 +1,4 @@
-package by.kraskovski.concurrency.concurrency.countdawnlatch;
+package by.kraskovski.concurrency.concurrent.synchronizers.countdawnlatch;
 
 import java.util.concurrent.CountDownLatch;
 
